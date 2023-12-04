@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="container">
+        <div class="temperature animate__animated animate__fadeIn ">
+            <div class="card">
+                <h1 class="animate__animated animate__backInDown" >Temperature Converter</h1>
+                <div>
+                    <input type="tel" name="Fahrenheit" id="Fahrenheit" placeholder="Fahrenheit"
+                     class="animate__animated animate__backInLeft"><br>
+                    <input type="tel" name="Celcius" id="celcius" placeholder="celcius" 
+                    class="animate__animated animate__backInRight"><br>
+                    <button onclick="convert()" class="animate__animated animate__bounceInUp">Convert</button>
+                </div>
+                <h3 id="result"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="functions.js"></script>
+</body>
+</html>

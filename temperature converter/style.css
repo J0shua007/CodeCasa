@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background:linear-gradient(135deg,#f44369,#3e3b92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temperature{
+    width: 380px;
+    text-align: center; 
+}
+.card{
+    width: 100%;
+    background-color:  #302f2e;
+    padding: 40px 0px ;
+    border-radius: 20px;
+    box-shadow: -1px -1px 10px rgb(255, 255, 255),1px 1px 10px white;
+}
+.card > h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px 20px;
+    width: 250px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    text-align: center;
+}
+input::placeholder{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+button{
+    padding: 7px 14px;
+    border-radius: 10px;
+    background-color: rgb(13, 224, 13);
+    columns: white;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    box-shadow: -1px -1px 3px black,1px 1px 3px white;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+.animate__animated .animate__backInDown,
+.animate__animated .animate__backInLeft,
+.animate__animated .animate__backInRight,
+.animate__animated .animate__bounceInUp {
+    animation-duration: 3s;
+}
